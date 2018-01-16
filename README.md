@@ -13,13 +13,13 @@ Du coup quand on fait un `pod install toto`, on regarde si le pod `toto` est sur
 Lorsqu’on créé un pod, 
 
 ### On peut souhaiter le rendre public, 
-* Sur le repo Specs de CocoaPods 
-* Sur notre repo “Specs” perso public (sans grand intérêt)
-* Sans passer par un repo Specs
+* Sur le repo `Specs` de CocoaPods 
+* Sur notre repo `Specs` perso public 
+* Sans passer par un repo `Specs`
 
 ### On peut souhaiter le rendre privé,
-* Sur un Repo Specs privé
-* Sans passer par un repo Specs
+* Sur un repo `Specs` privé
+* Sans passer par un repo `Specs`
 
 
 ## Exemple :

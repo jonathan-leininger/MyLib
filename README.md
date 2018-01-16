@@ -51,8 +51,8 @@ source 'https://github.com/jonathan-leininger/Specs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 pod "MyLib"
 ``````
-10) pod install
-On peut passer outre le fait d'avoir un repo privé en ajoutant l'URL du Git : 
+Puis `pod install`
+10) On peut passer outre le fait d'avoir un repo privé en ajoutant l'URL du Git : 
 ```ruby
 pod "MyLib", :git => "https://github.com/jonathan-leininger/MyLib.git", :tag => '0.9.3'
 ``````

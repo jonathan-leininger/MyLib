@@ -54,13 +54,12 @@ pod "MyLib"
 10) pod install
 On peut passer outre le fait d'avoir un repo privé en ajoutant l'URL du Git : 
 ```ruby
-pod "MyLib", :git => "https://github.com/jonathan-leininger/MyLib.git"
+pod "MyLib", :git => "https://github.com/jonathan-leininger/MyLib.git", :tag => '0.9.3'
 ``````
-
 Sur le repo public de Cocoa pod, il vous faudra faire ainsi :
 ```ruby
 pod trunk register jonathan.leininger@open-groupe.com 'Jonathan Leininger'
-pod trunk push ToasterSwift.podspec --allow-warnings
+pod trunk push MyLib.podspec --allow-warnings
 ``````
 MàJ votre repo local : `pod repo update`
 

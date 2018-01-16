@@ -15,7 +15,7 @@ Lorsqu’on créé un pod,
 ### On peut souhaiter le rendre public, 
 * Sur le repo Specs de CocoaPods 
 * Sur notre repo “Specs” perso public (sans grand intérêt)
-* Sans passer par un repo Specs (mais juste donner un accès au git)
+* Sans passer par un repo Specs
 
 ### On peut souhaiter le rendre privé,
 * Sur un Repo Specs privé

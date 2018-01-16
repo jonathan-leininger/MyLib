@@ -6,7 +6,7 @@ Comment créer sa librairie sous forme de Pod.
 ## Pour info, 
 Les pods disponibles publiquement sont tous recensés sur le master repo de CocoaPods nommé `Specs` ici : https://github.com/CocoaPods/Specs 
 Lorsqu’on fait un `pod update` on vient mettre à jour notre repo local. Ça revient en gros à faire un `git pull` sur la master du repo de CocoaPods. 
-Du coup quand on fait un `pod install`, on vient chercher l'existante du pod sur l’image du repo `Specs` de CocoaPods qu'on a en local sur notre machine. C’est pour ça que dès fois il nécessaire de rafraîchir notre repo local par un pod update.   
+Du coup quand on fait un `pod install toto`, on regarde si le pod `toto` est sur l’image du repo `Specs` de CocoaPods qu'on a en local sur notre machine. C’est pour ça que dès fois il nécessaire de rafraîchir notre repo local par un pod update.
 
 
 ## Créer un pod pour qui ?
@@ -31,7 +31,7 @@ pod repo add MyPods https://github.com/jonathan-leininger/Specs.git
 3) Vérifier que le repo est bien ajouté : `ls ~/.cocoapods/repos`
 4) Initialiser un projet Xcode de type pod : 
 ```ruby
-pod lib create MyLib`
+pod lib create MyLib
 ``````
 5) Ouvrir `MyLib.xcworkspace`
 6) Editer le fichier `MyLib.podspec` : renseigner les informations demandées
